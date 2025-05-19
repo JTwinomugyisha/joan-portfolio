@@ -9,7 +9,7 @@ export default function Home() {
 
       <section className={styles.section}>
         <h2>Education</h2>
-        <ul>
+        <ul className={styles.list}>
           <li>Postgraduate Diploma in Information Systems, Uganda Technology and Management University, 2024 – to date</li>
           <li>Digital Forensics and Threat Intelligence Analyst Certificate, CyberSafe Foundation (Remote), May – Nov 2023</li>
           <li>Bachelor of Arts in Economics, Kyambogo University, Uganda, 2015 – 2019</li>
@@ -20,7 +20,7 @@ export default function Home() {
         <h2>Professional Experience</h2>
         <h3>Talent Management Officer</h3>
         <p>Refactory Academy, Clarke International University, Bukasa Muyenga, Kampala, Uganda — Nov 2024 – Present</p>
-        <ul>
+        <ul className={styles.list}>
           <li>Collaborate with Talent Management Lead to match graduates with suitable job and internship opportunities.</li>
           <li>Coordinate recruitment, screening, interview scheduling, and placement follow-ups.</li>
           <li>Provide career counseling, coaching, mentorship, resume reviews, and interview prep.</li>
@@ -34,7 +34,7 @@ export default function Home() {
 
         <h3>Customer Support Specialist</h3>
         <p>Contractor at Exquisite Solution Ltd (Assigned to Agribusiness Development Centre – ADC) — Sept 2023 – Nov 2024</p>
-        <ul>
+        <ul className={styles.list}>
           <li>Deliver farmer support via call center, resolving inquiries promptly.</li>
           <li>Collect, organize, and format onboarding data for analysis.</li>
           <li>Conduct telephone surveys to gather farmer feedback.</li>
@@ -45,7 +45,7 @@ export default function Home() {
 
         <h3>Customer Service Quality Assurance and Team Leader</h3>
         <p>Contractor at Exquisite Solution Ltd (Assigned to Multichoice Uganda) — Oct 2021 – Sept 2023</p>
-        <ul>
+        <ul className={styles.list}>
           <li>Monitored team calls, provided actionable data for improvements.</li>
           <li>Coordinated call calibration for quality assurance.</li>
           <li>Delivered feedback and prepared quality reports.</li>
@@ -56,7 +56,7 @@ export default function Home() {
 
         <h3>Customer Service Representative</h3>
         <p>Contractor at Exquisite Solution Ltd (Assigned to Multichoice Uganda) — Feb 2021 – Sept 2021</p>
-        <ul>
+        <ul className={styles.list}>
           <li>Handled inbound calls, addressing queries and resolutions.</li>
           <li>Implemented customer retention strategies.</li>
           <li>Built strong rapport and maintained accurate records.</li>
@@ -69,7 +69,7 @@ export default function Home() {
 
       <section className={styles.section}>
         <h2>Technical Skills</h2>
-        <ul>
+        <ul className={styles.list}>
           <li>Proficient in Microsoft Office Suite (Word, Excel, PowerPoint)</li>
           <li>Experienced with CRM software and remote communication tools</li>
           <li>Knowledge of digital forensics and cybersecurity principles</li>
@@ -79,7 +79,7 @@ export default function Home() {
 
       <section className={styles.section}>
         <h2>Certifications</h2>
-        <ul>
+        <ul className={styles.list}>
           <li>Certificate of Completion – ICDL</li>
           <li>Certificate of Completion – CyberSafe Foundation</li>
           <li>Cyber Threat Intelligence 101 – arcX</li>
@@ -91,7 +91,7 @@ export default function Home() {
 
       <section className={styles.section}>
         <h2>Additional Information</h2>
-        <ul>
+        <ul className={styles.list}>
           <li>Strong cross-cultural communication skills with experience working in diverse teams.</li>
           <li>Adaptable to remote work settings with proven ability to work independently.</li>
           <li>Quick learner, proactive in professional development and knowledge acquisition.</li>
